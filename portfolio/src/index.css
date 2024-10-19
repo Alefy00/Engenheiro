@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Garante que não haverá scroll lateral */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Garantir que as imagens e elementos não ultrapassem a largura da tela */
+img, .container, .section {
+  max-width: 100%;
+}
