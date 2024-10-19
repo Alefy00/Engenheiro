@@ -89,10 +89,11 @@ function Contact() {
             scrollWheelZoom={false} 
             className="h-full w-full rounded-lg"
           >
-            <TileLayer
-             url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
-              attribution='&copy; <a href="https://carto.com/attributions">CARTO</a>'
-            />
+<TileLayer
+  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+/>
+
             <Marker position={position} icon={customIcon}>
               <Popup>
                 Avenida José Luiz Adjunto, 1378
